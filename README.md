@@ -48,7 +48,10 @@ Nginx logs are stored on the target server:
 - Access log: `/var/log/nginx/hello-world.access.log`
 - Error log: `/var/log/nginx/hello-world.error.log`
 
-To view logs in real time:
+To view access logs in real time:
 ```bash
 tail -f /var/log/nginx/hello-world.access.log
 ```
+To view error logs in real time:
+```bash
+tail -f /var/log/nginx/hello-world.error.log
