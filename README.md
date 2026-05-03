@@ -14,10 +14,12 @@ Browser → Nginx (port 80) → Docker container (port 8080)
 - Python 3 on the target server
 
 ## Project Structure
+```
 ansible-project/
 ├── inventory.ini    # List of target servers
 ├── playbook.yml     # Ansible playbook
 └── README.md        # This file
+```
 
 ## How to Use
 
