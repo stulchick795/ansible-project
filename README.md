@@ -25,7 +25,7 @@ ansible-project/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/ansible-project
+git clone https://github.com/stulchick795/ansible-project
 cd ansible-project
 ```
 
